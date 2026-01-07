@@ -26,7 +26,7 @@ This project demonstrates core concepts of **distributed storage, metadata manag
 ## System Architecture
 
 <p align="center">
-  <img src="ARCHITECTURE.png" width="500"/>
+  <img src="IMAGE.png" width="500"/>
 </p>
 
 
