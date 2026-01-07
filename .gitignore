@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+nodes/data/
+nodes/chunks/
+namenode/metadata.json
+.env
