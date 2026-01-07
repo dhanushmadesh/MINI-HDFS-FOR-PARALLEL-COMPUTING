@@ -6,7 +6,7 @@ This project demonstrates core concepts of **distributed storage, metadata manag
 
 ---
 
-## 📌 Key Features
+##  Key Features
 
 - Custom **Mini HDFS** with:
   - Namenode for metadata management
@@ -23,7 +23,7 @@ This project demonstrates core concepts of **distributed storage, metadata manag
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 User
 │
@@ -43,29 +43,11 @@ Data Nodes (nodes/)
 └── node3/
 └── chunk files
 
-yaml
-Copy code
+
 
 ---
 
-## 📂 Project Structure
 
-MINI-HDFS-FOR-PARALLEL-COMPUTING/
-│
-├── MAIN.py # CLI + Parallel MapReduce engine
-├── MINI_HDFS.py # Mini HDFS implementation
-├── namenode/
-│ └── metadata.json # File & chunk metadata
-├── nodes/
-│ ├── node1/ # Chunk storage
-│ ├── node2/
-│ └── node3/
-└── .gitignore
-
-yaml
-Copy code
-
----
 
 ## ⚙️ How It Works
 
@@ -88,21 +70,4 @@ Copy code
 
 ---
 
-## ▶️ How to Run
 
-### Prerequisites
-- Python 3.8+
-- Required library:
-```bash
-pip install colorama
-Run the program
-bash
-Copy code
-python MAIN.py
-Menu Options
-markdown
-Copy code
-1. Upload & Split File
-2. View Metadata
-3. Run Parallel Analysis
-4. Exit
