@@ -51,18 +51,18 @@ Data Nodes (nodes/)
 
 ## ⚙️ How It Works
 
-### 1️⃣ File Upload & Storage
+### 1.File Upload & Storage
 - User uploads a text file
 - File is **split line-by-line** into fixed chunks
 - Each chunk is stored in a separate data node
 - Namenode records metadata (file → chunks → nodes)
 
-### 2️⃣ Parallel Processing
+### 2.Parallel Processing
 - Each chunk is processed **independently** using multiprocessing
 - Map functions operate on chunk content
 - Reduce phase aggregates results into a global output
 
-### 3️⃣ Supported Jobs
+### 3.Supported Jobs
 | Job | Description |
 |----|------------|
 | Word Count | Computes total number of words across all chunks |
