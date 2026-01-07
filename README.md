@@ -25,23 +25,7 @@ This project demonstrates core concepts of **distributed storage, metadata manag
 
 ## System Architecture
 
-User
-│
-│ (Upload File)
-▼
-MAIN.py ───────────────┐
-│ │
-│ calls │ manages
-▼ ▼
-MINI_HDFS.py Namenode
-│ │
-│ splits file └── metadata.json
-▼
-Data Nodes (nodes/)
-├── node1/
-├── node2/
-└── node3/
-└── chunk files
+![System Architecture](ARCHITECTURE.png)
 
 
 
